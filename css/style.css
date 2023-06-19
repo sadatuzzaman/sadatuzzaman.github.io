@@ -275,12 +275,14 @@ header {
 
     .section__subtitle--intro {
         align-self: start;
-        grid-column: -1/1;
+
+        grid-column: 1/-1;
         grid-row: 2;
-        text-align: right;
         position: relative;
-        left: -1.5em;
-        width: calc(100% - 1em);
+        left: -1em;
+        width: calc(100% + 2em);  
+        padding-left: 1em;
+        padding-right: calc(200px + 4em);
         
     }
 
